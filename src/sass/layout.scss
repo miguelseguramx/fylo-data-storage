@@ -1,0 +1,30 @@
+.main{
+  background-image: url('../../images/bg-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $darker-blue;
+  min-height: 100vh;
+  padding: 28px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+
+  &__wrapper{
+    display: flex; 
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  @media screen and (min-width: 992px){ 
+    background-image: url('../../images/bg-desktop.svg');
+    background-position: bottom;
+    background-size: contain;
+
+    &__wrapper{
+      flex-direction: row;
+    }
+  }
+
+}

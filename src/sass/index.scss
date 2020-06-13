@@ -1,0 +1,18 @@
+$pale-blue: hsl(243, 100%, 93%);
+$grayish-blue: hsl(229, 7%, 55%);
+$dark-blue: #1d2c67;
+$darker-blue: #0c122c;
+$gradient: #ffa399, #ff4d97;
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+@import "./layout.scss";
+@import "./nav.scss";
+@import "./storage.scss";
